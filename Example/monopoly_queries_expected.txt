@@ -1,0 +1,62 @@
+Query 1: How much money does each player get at the start of Monopoly?
+Expected Answer:
+{
+  "decision": "Each player starts with $1500.",
+  "amount": 1500,
+  "justification": "According to the official Monopoly rules, the Bank distributes $1500 to each player at the beginning of the game.",
+  "clause_reference": "Monopoly Rulebook – Bank and Money Distribution Section"
+}
+
+Query 2: What happens if I land on Free Parking?
+Expected Answer:
+{
+  "decision": "Nothing happens when you land on Free Parking.",
+  "amount": 0,
+  "justification": "The official rules state that Free Parking is a neutral space where no rent, fees, or rewards are given unless players agree on house rules.",
+  "clause_reference": "Monopoly Rulebook – Free Parking Section"
+}
+
+Query 3: Can I collect rent while I’m in Jail?
+Expected Answer:
+{
+  "decision": "Yes, players can still collect rent while in Jail.",
+  "amount": "Varies based on property rent values.",
+  "justification": "Being in Jail restricts movement but does not affect property ownership. The rulebook confirms that rent collection continues during Jail time.",
+  "clause_reference": "Monopoly Rulebook – Jail Rules"
+}
+
+Query 4: What happens if I cannot pay rent to another player?
+Expected Answer:
+{
+  "decision": "The player must mortgage properties or sell houses/hotels to raise funds. If unable, they are declared bankrupt.",
+  "amount": "All remaining assets transferred to creditor.",
+  "justification": "The rules state that if a player cannot pay rent or debts, they must liquidate assets. If still insufficient, they are removed from the game and assets go to the owed player.",
+  "clause_reference": "Monopoly Rulebook – Bankruptcy Section"
+}
+
+Query 5: What happens if I roll doubles three times in a row?
+Expected Answer:
+{
+  "decision": "The player is sent directly to Jail.",
+  "amount": 0,
+  "justification": "According to the official rules, rolling doubles allows an extra turn, but if a player rolls doubles three consecutive times, they must go directly to Jail without completing the third move.",
+  "clause_reference": "Monopoly Rulebook – Movement and Jail Rules"
+}
+
+Query 6: How much is the rent on Boardwalk with one hotel?
+Expected Answer:
+{
+  "decision": "The rent on Boardwalk with one hotel is $2000.",
+  "amount": 2000,
+  "justification": "The official property deed card for Boardwalk specifies the rent with one hotel as $2000.",
+  "clause_reference": "Monopoly Rulebook – Property Deed Cards (Boardwalk)"
+}
+
+Query 7: Can I trade a 'Get Out of Jail Free' card with another player?
+Expected Answer:
+{
+  "decision": "Yes, the 'Get Out of Jail Free' card can be sold or traded to another player.",
+  "amount": "Negotiated between players.",
+  "justification": "The rules permit the trading of property, money, and special cards, including the 'Get Out of Jail Free' card.",
+  "clause_reference": "Monopoly Rulebook – Trading Rules"
+}

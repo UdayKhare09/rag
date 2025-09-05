@@ -1,0 +1,29 @@
+# Core FastAPI and web framework
+fastapi
+uvicorn[standard]
+
+# LangChain core and community packages
+langchain
+langchain-community
+langchain-core
+
+# Embeddings and text processing
+sentence-transformers
+transformers
+torch
+
+# Vector database - PGVector
+pgvector
+
+# PDF processing
+PyMuPDF
+
+# Ollama integration
+ollama
+
+# Additional utilities
+numpy
+pandas
+python-multipart
+# Optional: For better tokenization
+tiktoken
